@@ -1,0 +1,77 @@
+body{
+    overflow-x: hidden;
+    margin-left: 0px;
+}
+.custom-navbar {
+    background-color:rgb(10,11,39);
+    z-index: 9;
+   
+}
+.dropdown-menu {
+    background-color: red;
+    color: white;
+}
+.main{
+    width: 100%;
+}
+.cstm-navbar{
+    font-size:12px;
+}
+.black{
+  width: 150px;
+  height: 350px;
+  background-size: 100% 100%;
+  position: relative;
+  animation: rotate 1s linear infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -2s);
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+}
+.back-parent{
+    background-color: black;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.fizz{
+    width: 100%;
+}
+.rotate{
+    width: 100px;
+    /* margin: 50%; */
+}
+.text1{
+    color: rgb(255, 255, 255);
+   margin-left: -190px;
+   z-index: 1;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   font-weight:bold;
+   font-size: 55px;
+    
+    
+}
+.text{
+    font-size: 10px;
+    color:rgb(12,13,42);
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.main-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+@keyframes  rotate {
+	to {
+		transform: rotate(360deg);
+	}
+}
